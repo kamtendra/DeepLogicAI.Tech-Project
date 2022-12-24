@@ -8,7 +8,6 @@ urlpatterns = [
     path('register',register,name="register"),
     path('login',login,name="login"),
     path('fileupload',fileupload,name="fileupload"),
+    path('recentlyuploaded',recentlyuploaded,name="recentlyuploaded"),
 ]
-
-if settings.DEBUG:
-    urlpatterns+=static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns+=static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

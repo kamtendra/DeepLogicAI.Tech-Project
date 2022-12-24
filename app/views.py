@@ -54,4 +54,13 @@ def fileupload(request):
 
         data = File(name=name, file=file, text=page)
         data.save()
-    return render(request,"fileupload.html")     
+    return render(request,"fileupload.html") 
+
+def recentlyuploaded(request):
+    name = request.POST['name']
+    file = request.FILES['file']
+
+    text = PyPDF2.PdfReader(file)
+    page = text.pages[0].extract_text()
+
+    return render(request,"recentlyuploaded.html",{'name':name,'text':page,'file':file})
