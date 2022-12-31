@@ -21,4 +21,7 @@ Uploaded Files along with its Extracted Text in PostgreSQL Database Table
 ![App Screeshot](https://github.com/kamtendra/DeepLogicAI.Tech-Project/blob/master/screenshots/Screenshot%20(99).png?raw=true)
 (IMP) Extracted Text from the File
 ![App Screenshot](https://github.com/kamtendra/DeepLogicAI.Tech-Project/blob/master/screenshots/Screenshot%20(100).png?raw=true)
-
+(IMP) Button To Recently Uploaded Files
+![App Screenshot](https://github.com/kamtendra/DeepLogicAI.Tech-Project/blob/master/screenshots/Screenshot%20(102).png?raw=true)
+(IMP) Recently Uploaded File
+![App Screenshot](https://github.com/kamtendra/DeepLogicAI.Tech-Project/blob/master/screenshots/Screenshot%20(101).png?raw=true)
